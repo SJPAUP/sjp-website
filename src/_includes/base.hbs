@@ -1,0 +1,52 @@
+{{!-- Absolute minimum template for every page --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{!-- CSS --}}
+    <link rel="stylesheet" href="/css/style.css?v={{pkg.version}}">
+    
+    {{#each css}}<link rel="stylesheet" href="{{this}}">{{/each}}
+
+    {{!-- JS --}}
+    {{#each scripts}}
+    {{#if inline}}
+    <script>{{{inline}}}</script>
+    {{else}}
+    <script src="{{src}}?v={{pkg.version}}"{{#if defer}} defer{{/if}}></script>
+    {{/if}}
+    {{/each}}
+    
+    <title>{{ title }} &ndash; SJP</title>
+    <meta name="title" content="{{#if meta.title}}{{meta.title}}{{else}}{{title}} &ndash; SJP{{/if}}">
+
+    <meta charset="UTF-8">
+    <meta name="author" content="{{meta.author}}">
+    <meta name="keywords" content="{{meta.keywords}}">
+    <meta name="description" content="{{meta.desc}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:type" content="website">
+    {{!-- <meta property="og:url" content="{{meta.url}}{{page.url}}">
+    <meta property="og:title" content="{{#if meta.title}}{{meta.title}}{{else}}{{title}}{{/if}}">
+    <meta property="og:description" content="{{meta.desc}}">
+    <meta property="og:image" content="{{meta.url}}{{meta.image}}">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{meta.url}}{{page.url}}">
+    <meta property="twitter:title" content="{{#if meta.title}}{{meta.title}}{{else}}{{title}}{{/if}}">
+    <meta property="twitter:description" content="{{meta.desc}}">
+    <meta property="twitter:image" content="{{meta.url}}{{meta.image}}"> --}}
+
+    {{!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/fav/apple-touch-icon.png"> --}}
+    {{!-- <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav/favicon-32x32.png"> --}}
+    {{!-- <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav/favicon-16x16.png"> --}}
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    {{{ content }}}
+</body>
+
+</html>

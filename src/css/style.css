@@ -1,0 +1,407 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #F0F2EF;
+}
+
+/* =========================
+   HEADER
+========================= */
+h1.logo {
+  & > a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.topbar {
+  background: linear-gradient(#1F7837 0.42%, #155628);
+  color: #FFFFFF;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbar h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.topbar nav a {
+  color: #FFFFFF;
+  margin-left: 48px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.topbar nav a:hover {
+  color: #FE5F5F;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/assets/blurryP.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  margin: 0 auto;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.quote {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.author {
+  font-size: 18px;
+  text-align: right;
+  font-style: italic;
+}
+
+/* =========================
+   GRID (DESKTOP)
+========================= */
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 13rem);
+
+  background: #A9CBB1;
+  padding: 56px;
+
+  gap: 28px;
+  margin-top: -2.5rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.article-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  padding: 28px;
+
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+
+  position: relative;
+  overflow: hidden;
+
+  background: linear-gradient(145deg, #111111, #000000);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 10px 24px rgba(0, 0, 0, 0.25);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: scale(1.035);
+    z-index: 10;
+  }
+
+  /* &::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    border-radius: 28px;
+    z-index: 1;
+  } */
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+
+  opacity: 0.4;
+}
+
+.article-card-title {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.article-card.important {
+  background: linear-gradient(145deg, #8B0C00, #44110E);
+}
+
+/* .card.what,
+.card.socials,
+.card.donations,
+.card.resources,
+.card.recipes {
+  background: linear-gradient(145deg, #8B0C00, #44110E);
+} */
+
+/* =========================
+  ARTICLE PAGES
+========================= */
+.content-wrapper {
+  background: #a9cbb1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  padding: 0 24px 100px;
+}
+
+.info-box {
+  background: #ffffff;
+  max-width: 900px;
+  padding: 56px 64px;
+  border-radius: 36px;
+  border: 3px solid #1f7837;
+
+  /* ULTRA HIGH */
+  margin-top: -850px;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.info-box h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.info-box p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   DESKTOP GRID PLACEMENT
+========================= */
+/* .what {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.protests {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.schedule {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
+
+.news {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.socials {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.help {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+
+.resources {
+  grid-column: 4 / 5;
+  grid-row: 2 / 4;
+}
+
+.donations {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.culture {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.recipes {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.previous {
+  grid-column: 3 / 5;
+  grid-row: 4 / 5;
+} */
+
+/* =========================
+   LAPTOP (KEEP GRID, FIX PROPORTIONS)
+========================= */
+@media (max-width: 1200px) {
+  .article-grid {
+    grid-template-rows: repeat(4, 190px);
+    gap: 24px;
+    padding: 48px;
+  }
+
+  .article-card {
+    font-size: 22px;
+  }
+
+  .topbar h1 {
+    font-size: 32px;
+  }
+
+  .info-box {
+    margin-top: -700px;
+  }
+
+  .info-box h2 {
+    font-size: 32px;
+  }
+}
+
+/* =========================
+   TABLET (2-COLUMN GRID)
+========================= */
+@media (max-width: 900px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  /* .what,
+  .protests,
+  .schedule,
+  .news,
+  .socials,
+  .help,
+  .resources,
+  .donations,
+  .culture,
+  .recipes,
+  .previous {
+    grid-column: auto;
+    grid-row: auto;
+  } */
+
+  .article-card {
+    min-height: 180px;
+    font-size: 20px;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .info-box {
+    margin-top: -600px;
+    padding: 48px;
+  }
+
+  .info-box h2 {
+    font-size: 30px;
+  }
+
+  .info-box p {
+    font-size: 17px;
+  }
+}
+
+/* =========================
+   PHONE (STACKED)
+========================= */
+@media (max-width: 600px) {
+  .topbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .topbar nav {
+    margin-top: 10px;
+  }
+
+  .topbar nav a {
+    margin: 0 12px;
+    font-size: 16px;
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
+    padding: 32px 20px;
+  }
+
+  .article-card {
+    min-height: 140px;
+    font-size: 18px;
+  }
+
+  .quote {
+    font-size: 18px;
+  }
+
+  .author {
+    font-size: 16px;
+  }
+  
+  .content-wrapper {
+    padding-bottom: 80px;
+  }
+
+  .info-box {
+    margin-top: -420px;
+    padding: 32px;
+    border-radius: 28px;
+  }
+
+  .info-box h2 {
+    font-size: 26px;
+  }
+
+  .info-box p {
+    font-size: 16px;
+  }
+}

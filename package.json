@@ -1,0 +1,29 @@
+{
+  "name": "sjp-website",
+  "version": "1.0.0",
+  "description": "Office website of the Students for Justice in Palestine club at AUP",
+  "main": "public/index.html",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Eli Michaud",
+    "url": "https://michaud.dev"
+  },
+  "contributors": [
+    "Eli",
+    "Layanna"
+  ],
+  "scripts": {
+    "start": "eleventy --serve --incremental",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0",
+    "browserslist": "^4.28.1",
+    "lightningcss": "^1.31.1"
+  }
+}

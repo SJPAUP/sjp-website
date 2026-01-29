@@ -1,0 +1,15 @@
+---
+layout: base.hbs
+---
+{{! This is the default template for all the pages }}
+
+<header class="topbar">
+  <h1 class="logo"><a href="/">SJP</a></h1>
+  <nav>
+    {{#each navigation as |navItem|}}
+    <a href="{{navItem.url}}" {{#if (eq ../page.url navItem.url)}}aria-current="page"{{/if}}>{{navItem.title}}</a>
+    {{/each}}
+  </nav>
+</header>
+
+{{{content}}}

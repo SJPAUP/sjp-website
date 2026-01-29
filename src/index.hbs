@@ -1,0 +1,22 @@
+---
+title: "Home Page"
+layout: "default.hbs"
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="quote">
+      “The wars will end and the leaders will shake hands, and that old woman will remain waiting for her martyred son, and that girl will wait for her beloved husband, and the children will wait for their heroic father, I do not know who sold the homeland but I know who paid the price.”
+    </p>
+    <p class="author">&ndash; Mahmoud Darwich</p>
+  </div>
+</section>
+
+<main class="article-grid">
+  {{#each collections.article as |article|}}
+  <a class="article-card{{#if article.data.important}} important{{/if}}" id="article-card-{{slugify article.data.title}}" href="{{article.url}}">
+    <img class="article-image" src="{{article.data.image}}" alt="{{proj.data.imageAlt}}">
+    <span class="article-card-title">{{article.data.title}}</span>
+  </a>
+  {{/each}}
+</main>
