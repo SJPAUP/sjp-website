@@ -6,7 +6,10 @@ const { bundle, browserslistToTargets, composeVisitors } = require("lightningcss
 
 const browserTargets = ">= 0.5% in US, >= 0.5% in FR, last 2 versions and not dead";
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+
+  const { HtmlBasePlugin } = await import("@11ty/eleventy");
+  eleventyConfig.addPlugin(HtmlBasePlugin); // <base> plugin
   eleventyConfig.addPlugin(handlebarsPlugin); // Handlebars :{
 
   eleventyConfig.addPassthroughCopy("./src/assets");

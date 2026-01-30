@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "start": "eleventy --serve --incremental",
-    "build": "eleventy"
+    "build": "eleventy --pathprefix sjp-website"
   },
   "dependencies": {
     "sharp": "^0.34.5"
