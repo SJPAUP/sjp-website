@@ -2,7 +2,7 @@ const path = require("path");
 
 const handlebarsPlugin = require("@11ty/eleventy-plugin-handlebars");
 const browserslist = require("browserslist");
-const { bundle, browserslistToTargets, composeVisitors } = require("lightningcss");
+const { bundle, browserslistToTargets, composeVisitors, transform } = require("lightningcss");
 
 const browserTargets = ">= 0.5% in US, >= 0.5% in FR, last 2 versions and not dead";
 
@@ -27,12 +27,22 @@ module.exports = async function (eleventyConfig) {
 
       let targets = browserslistToTargets(browserslist(browserTargets));
 
+      const urlVisitor = {
+        Url(url) {
+          return {
+            url: eleventyConfig.getFilter("url")(url.url),
+            loc: url.loc,
+          }
+        }
+      }
+
       return async () => {
         let {code} = bundle({
           filename: inputPath,
           minify: true,
           sourceMap: false,
           targets: targets,
+          visitor: urlVisitor
         });
 
         return code;
@@ -44,7 +54,6 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addShortcode("eq", (a, b) => {
     return a === b;
   });
-
 
   return {
     dir: {
