@@ -10,7 +10,7 @@
   },
   "contributors": [
     "Eli",
-    "Layanna"
+    "Layana"
   ],
   "scripts": {
     "start": "eleventy --serve --incremental",
