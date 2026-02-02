@@ -202,13 +202,13 @@ h1.logo {
   height: auto;
 }
 
-.footer-email a {
-  color: #E6F4EA;
+.footer-contact a {
+  color: #1d24ff;
   text-decoration: none;
   font-weight: 500;
 }
 
-.footer-email a:hover {
+.footer-contact a:hover {
   text-decoration: underline;
 }
 
@@ -216,7 +216,6 @@ h1.logo {
   font-size: 14px;
   opacity: 0.8;
 }
-
 
 /* =========================
   ARTICLE PAGES
