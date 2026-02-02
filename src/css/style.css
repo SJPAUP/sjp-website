@@ -180,6 +180,45 @@ h1.logo {
 } */
 
 /* =========================
+   FOOTER
+========================= */
+.site-footer {
+  background: linear-gradient(#155628, #1F7837);
+  color: #FFFFFF;
+}
+
+.site-footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+}
+
+.footer-email a {
+  color: #E6F4EA;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-email a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+
+/* =========================
   ARTICLE PAGES
 ========================= */
 .content-wrapper {
