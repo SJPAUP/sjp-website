@@ -4,8 +4,56 @@ image: "/assets/article/schedule.jpg"
 imageAlt: "A calendar"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum, ligula sagittis tristique tempus, turpis leo consequat quam, non feugiat est dui in lorem. Etiam consequat sit amet arcu quis venenatis.
 
-future and past events
+VISIBILITY WEEK
+March 16th - 20th 2026  
+Location: Combes Lobby  
+Time: 10h - 18h
 
-Morbi luctus, nunc et elementum elementum, odio elit sodales eros, vitae ultrices odio tortor at metus. Phasellus semper venenatis nunc, at sagittis neque elementum non. 
+
+CULTURAL NIGHT (Henna, Dabke, Food)  
+March 19th 2026  
+Location:  
+Time:
+
+
+BAKESALE  
+March 19th 2026  
+Location: Combes Lobby  
+Time: 10h - 18h  
+
+
+BAKESALE  
+March 18th 2026  
+Location: Combes Lobby  
+Time: 10h - 18h  
+
+
+TALK WITH PROFESSOR ZIAD MAJED (discussing the Palestinian flag)  
+March 17th 2026  
+Location:  
+Time:  
+
+
+BAKESALE  
+March 17th 2026  
+Location: Combes Lobby  
+Time: 10h - 18h  
+
+
+BAKESALE  
+March 16th 2026  
+Location: Combes Lobby  
+Time: 10h - 18h  
+
+
+ART BUILD  
+March 11th 2026  
+Location: Combes 8th floor  
+Time: 15h  
+
+
+MOVIE SCREENING (Movie Name)  
+February 19th 2026  
+Location:   
+Time:   

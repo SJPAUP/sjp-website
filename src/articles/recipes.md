@@ -5,8 +5,17 @@ imageAlt: "A reporter"
 important: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum, ligula sagittis tristique tempus, turpis leo consequat quam, non feugiat est dui in lorem. Etiam consequat sit amet arcu quis venenatis.
+https://watanypalestinianproducts.com/blogs/watany-palestinian-products-blogs/kunafa-nabulsi-recipe?srsltid=AfmBOoo3GUfRb8_kyc0slptZWdhSvWRIkr0-wBsQQqfOzAjxV3s5K1kY
 
-Quisque tincidunt arcu ligula, in molestie augue eleifend viverra. Integer eu mauris et tortor tincidunt pretium eu in eros. Nunc placerat euismod quam, a maximus tellus feugiat vitae.
+https://palestineinadish.com/recipes/maloubeh-flipped-over-rice-cauliflower-and-chicken/
 
-Morbi luctus, nunc et elementum elementum, odio elit sodales eros, vitae ultrices odio tortor at metus. Phasellus semper venenatis nunc, at sagittis neque elementum non. 
+https://palestineinadish.com/recipes/hummus/
+
+https://palestineinadish.com/recipes/manaeesh-zaatar/
+
+https://falasteenifoodie.com/best-crispy-falafel-recipe/
+
+https://falasteenifoodie.com/fogaiyya-stew-from-gaza-city/
+
+https://falasteenifoodie.com/namoura-harissa/
+

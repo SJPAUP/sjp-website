@@ -4,9 +4,13 @@ image: "/assets/article/culture.jpg"
 imageAlt: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum, ligula sagittis tristique tempus, turpis leo consequat quam, non feugiat est dui in lorem. Etiam consequat sit amet arcu quis venenatis.
+Le Trio Joubran  
+Mohammed Assaf  
+Saint Levant  
+Elyanna  
+Zeyne  
 
-MUSIC.... MUSICIANS... POETS....
+Mahmoud Darwich  
 
 WATERMELON SYMBOL, HANDALA, KUFFIYEH....
 
