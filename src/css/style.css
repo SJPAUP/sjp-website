@@ -232,7 +232,6 @@ h1.logo {
 .info-box {
   background: #ffffff;
   width: 800px;
-  max-width: 900px;
   padding: 56px 64px;
   border-radius: 36px;
   border: 3px solid #1f7837;
@@ -376,7 +375,7 @@ h1.logo {
   }
 
   .info-box {
-    margin-top: -600px;
+    margin-top: -500px;
     padding: 48px;
   }
 
@@ -431,7 +430,7 @@ h1.logo {
   }
 
   .info-box {
-    margin-top: -420px;
+    margin-top: -500px;
     padding: 32px;
     border-radius: 28px;
   }
