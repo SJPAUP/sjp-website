@@ -231,6 +231,7 @@ h1.logo {
 
 .info-box {
   background: #ffffff;
+  width: 800px;
   max-width: 900px;
   padding: 56px 64px;
   border-radius: 36px;
