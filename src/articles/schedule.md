@@ -48,8 +48,8 @@ Time: 10h - 18h
 
 
 ART BUILD  
-March 11th 2026  
-Location: Combes 8th floor  
+FEBRUARY 17th 2026  
+Location: Q-801  
 Time: 15h  
 
 
