@@ -7,9 +7,37 @@ layout: base.hbs
   <h1 class="logo"><a href="/">Students for Justice in Palestine AUP</a></h1>
   <nav>
     {{#each navigation as |navItem|}}
-    <a href="{{navItem.url}}" {{#if (eq ../page.url navItem.url)}}aria-current="page"{{/if}}>{{navItem.title}}</a>
+    <a href="{{navItem.url}}" {{#if (eq ../page.url navItem.url)}}aria-current="page" {{/if}}>{{navItem.title}}</a>
     {{/each}}
   </nav>
 </header>
 
 {{{content}}}
+
+<footer class="site-footer">
+  <div class="footer-section" id="footer-left">
+    <span id="footer-copyright">&copy; 2026 SJP. All rights reserved.</span>
+  </div>
+
+  <div class="footer-section" id="footer-middle">
+    <img src="/assets/article/logo.jpg" alt="SJP Logo" id="footer-logo" />
+  </div>
+
+  <div class="footer-section" id="footer-right">
+    <p><b>Contact Us:</b></p>
+    <ul id="footer-contact-list">
+      <li class="contact-item">
+        <a href="mailto:sjp@aup.edu" target="_blank">
+          <img src="/assets/icons/mail.svg" alt="" width="24px"> {{!-- Alt text empty on purpose --}}
+          <span class="contact-link">sjp@aup.edu</span>
+        </a>
+      </li>
+      <li class="contact-item">
+        <a href="https://www.instagram.com/aup_sjp/" target="_blank">
+          <img src="/assets/icons/instagram.svg" alt="" width="24px"> {{!-- Alt text empty on purpose --}}
+          <span class="contact-link">@aup_sjp</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>

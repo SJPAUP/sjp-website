@@ -20,13 +20,14 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addExtension("css", {
     outputFileExtension: "css",
-    compile: async function (_inputContent, inputPath) {
+    compile: async function (inputContent, inputPath) {
 
       let parsed = path.parse(inputPath);
       if (parsed.name.startsWith("_")) { return; } // Skip @import files
 
       let targets = browserslistToTargets(browserslist(browserTargets));
 
+      // Obvious culprit is not so obvious...
       const urlVisitor = {
         Url(url) {
           return {
@@ -37,10 +38,11 @@ module.exports = async function (eleventyConfig) {
       }
 
       return async () => {
-        let {code} = bundle({
+        let {code, map} = await transform({
           filename: inputPath,
+          code: Buffer.from(inputContent),
           minify: true,
-          sourceMap: false,
+          sourceMap: true,
           targets: targets,
           visitor: urlVisitor
         });
