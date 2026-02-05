@@ -20,6 +20,14 @@
   font-family: "Amiri", serif;
 }
 
+html {
+  font-size: 1vw; /* base font scales with viewport width */
+}
+
+body {
+  background: var(--white-color);
+}
+
 /* =========================
    HEADER
 ========================= */
@@ -37,22 +45,23 @@ h1.logo > a {
   top: 0;
   z-index: 1000;
   background-color: var(--black-color);
-  padding: 1rem 2rem;
-  border-bottom: 1px solid white;
+  padding: 1.5vw 3vw;
+  border-bottom: 0.1vw solid white;
 }
 
 .topbar h1 {
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: 600;
 }
 
 .topbar nav a {
   color: #FFFFFF;
-  margin-left: 3rem;
+  margin-left: 3vw;
   text-decoration: none;
   font-weight: 600;
   font-family: "Alexandria", sans-serif;
   transition: color 0.2s;
+  font-size: 1.2vw;
 }
 
 .topbar nav a:hover {
@@ -65,11 +74,10 @@ h1.logo > a {
 .hero {
   width: 100%;
   position: relative;
-  overflow: visible;
-  margin-top: -150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -10%;
 }
 
 .hero-background {
@@ -79,7 +87,7 @@ h1.logo > a {
 
 .hero-background img {
   width: 100%;
-  height: auto; 
+  height: auto;
   display: block;
   object-fit: contain;
 }
@@ -87,52 +95,53 @@ h1.logo > a {
 .hero-content {
   position: absolute;
   z-index: 2;
-  max-width: 760px;
-  padding: 0 32px;
+  max-width: 60vw;
+  padding: 0 2vw;
   text-align: center;
   color: black;
 }
 
 .quote {
-  font-size: 23px;
+  font-size: 2vw;
   line-height: 1.6;
-  margin-top: -250px;
+  margin-top: -30%;
 }
 
 .author {
-  font-size: 20px;
+  font-size: 1.6vw;
   text-align: left;
   font-style: italic;
 }
 
 /* =========================
-   GRID (DESKTOP)
+   GRID
 ========================= */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 13rem);
-  margin-top: -250px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2vw;
   background: #a7cab2;
-  padding: 56px;
-  gap: 2rem;
+  padding: 5vw;;
 }
 
 .article-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem;
-  padding: 2rem;
+  border-radius: 1vw;
+  padding: 2vw;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5vw;
   color: #FFFFFF;
   position: relative;
   overflow: hidden;
   background: linear-gradient(145deg, #111111, #000000);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06),
-              0 10px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 0 0.1vw rgba(255, 255, 255, 0.06),
+              0 1vw 2.5vw rgba(0, 0, 0, 0.25);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  width: 100%;
+  aspect-ratio: 4 / 3; /* keeps card proportional */
 }
 
 .article-card:hover {
@@ -163,33 +172,35 @@ h1.logo > a {
 ========================= */
 .site-footer {
   display: flex;
-  padding: 1rem 0;
+  padding: 1vw 0;
   background: linear-gradient(#155628, #1F7837);
   color: #ffffff;
+  flex-wrap: wrap;
 }
 
 .site-footer > * {
   margin: auto;
-  flex: 1 1 0px;
+  flex: 1 1 0;
   text-align: center;
 }
 
 #footer-logo {
-  width: 60px;
+  width: 4vw;
   height: auto;
 }
 
 #footer-copyright {
-  font-size: 14px;
+  font-size: 1vw;
 }
 
 #footer-contact-list {
   list-style-type: none;
+  padding: 0;
 }
 
 #footer-contact-list a {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 #footer-contact-list .contact-link {
@@ -209,185 +220,93 @@ h1.logo > a {
   justify-content: center;
   position: relative;
   z-index: 2;
-  padding: 32px 24px 100px;
+  padding: 4vw 2vw 10vw;
 }
 
 .info-box {
   background: white;
-  width: 52rem;
-  padding: 4rem;
-  border-radius: 28px;
+  width: 80%;
+  max-width: 52vw;
+  padding: 4vw;
+  border-radius: 2vw;
 }
 
 .info-box h2 {
-  font-size: 36px;
-  margin-bottom: 24px;
+  font-size: 3.6vw;
+  margin-bottom: 2vw;
   text-align: center;
 }
 
 .info-box p {
-  font-size: 18px;
+  font-size: 1.8vw;
   line-height: 1.8;
-  margin-bottom: 20px;
+  margin-bottom: 1.5vw;
 }
 
 /* =========================
    IMAGES (EVENTS & RECIPES)
 ========================= */
 .event-images, .recipe-images {
-  margin-top: 2rem;
+  margin-top: 2vw;
 }
 
 .event-image {
-  margin-bottom: 2rem;
+  margin-bottom: 2vw;
   text-align: center;
 }
 
 .event-image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 40vw;
   height: auto;
-  border-radius: 6px;
+  border-radius: 0.5vw;
 }
 
 .event-image figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
+  margin-top: 0.5vw;
+  font-size: 0.95vw;
   color: #444;
 }
 
 .recipe-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2vw;
   justify-content: center;
 }
 
 .recipe-images figure {
   margin: 0;
   text-align: center;
-  width: 200px;
+  width: 20vw;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .recipe-images img {
   width: 100%;
-  height: 200px;
+  height: 20vw;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 0.5vw;
   display: block;
   margin: 0 auto;
 }
 
 .recipe-images figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
+  margin-top: 0.5vw;
+  font-size: 0.95vw;
   color: #444;
 }
 
 .recipe-images figure:hover img {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
 }
 
 /* =========================
-   RESPONSIVE
+   SMALL SCREEN EXCEPTIONS
 ========================= */
-@media (max-width: 1200px) {
-  .article-grid {
-    grid-template-rows: repeat(4, 190px);
-    gap: 24px;
-    padding: 48px;
-  }
-
-  .article-card {
-    font-size: 22px;
-  }
-
-  .topbar h1 {
-    font-size: 32px;
-  }
-
-  .info-box h2 {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 900px) {
-  .article-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-
-  .article-card {
-    min-height: 180px;
-    font-size: 20px;
-  }
-
-  .hero {
-    height: 70vh;
-  }
-
-  .info-box {
-    padding: 48px;
-  }
-
-  .info-box h2 {
-    font-size: 30px;
-  }
-
-  .info-box p {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 600px) {
-  .topbar {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .topbar nav {
-    margin-top: 10px;
-  }
-
-  .topbar nav a {
-    margin: 0 12px;
-    font-size: 16px;
-  }
-
-  .article-grid {
-    grid-template-columns: 1fr;
-    padding: 32px 20px;
-  }
-
-  .article-card {
-    min-height: 140px;
-    font-size: 18px;
-  }
-
-  .quote {
-    font-size: 18px;
-  }
-
-  .author {
-    font-size: 16px;
-  }
-
-  .content-wrapper {
-    padding-bottom: 80px;
-  }
-
-  .info-box {
-    padding: 32px;
-  }
-
-  .info-box h2 {
-    font-size: 26px;
-  }
-
-  .info-box p {
-    font-size: 16px;
+@media (max-width: 320px) {
+  html {
+    font-size: 3.5px; /* prevents text from being unreadable */
   }
 }
