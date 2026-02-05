@@ -151,7 +151,7 @@ h1.logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.8rem;
+  border-radius: 1rem;
   padding: 2rem;
 
   text-decoration: none;
@@ -255,6 +255,7 @@ h1.logo {
   background: white;
   width: 52rem;
   padding: 4rem 4rem;
+  border-radius: 28px;
 }
 
 .info-box h2 {
@@ -347,6 +348,7 @@ h1.logo {
 
   .info-box {
     /* margin-top: -700px; */
+    border-radius: 28px;
   }
 
   .info-box h2 {
@@ -392,6 +394,7 @@ h1.logo {
   .info-box {
     /* margin-top: -500px; */
     padding: 48px;
+    border-radius: 28px;
   }
 
   .info-box h2 {
