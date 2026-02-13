@@ -9,6 +9,6 @@ MUSI, AUDIOMACK, ANGHAMI
 
 
 <div class="playlist-container">
-<iframe src="https://audiomack.com//embed/sjp_aup/playlist/palestine-english" scrolling="no" width="100%" height="400" frameborder="0" title="PALESTINE (english)"></iframe>
-<iframe src="https://audiomack.com//embed/sjp_aup/playlist/palestine-arabic" scrolling="no" width="100%" height="400" frameborder="0" title="PALESTINE (arabic)"></iframe>
+<iframe src="https://audiomack.com//embed/sjp_aup/playlist/palestine-english" scrolling="no" width="100%" height="400" frameborder="0"   style="border-radius: 20px;" title="PALESTINE (english)"></iframe>
+<iframe src="https://audiomack.com//embed/sjp_aup/playlist/palestine-arabic" scrolling="no" width="100%" height="400" frameborder="0" style="border-radius: 20px;" title="PALESTINE (arabic)"></iframe>
 </div>
