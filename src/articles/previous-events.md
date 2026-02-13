@@ -1,5 +1,5 @@
 ---
-title: "Previous Events"
+title: "Previous /Events"
 image: "/assets/article/previous.jpg"
 imageAlt: "A reporter"
 ---

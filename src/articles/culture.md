@@ -17,9 +17,11 @@ KUFFIYEH
 OLIVE TREES
 (importance...)  
 
-Le Trio Joubran  
-Mohammed Assaf  
-Saint Levant  
-Elyanna  
-Zeyne  
-Mahmoud Darwich  
+DABKE
+(importance...)  
+
+MAHMOUD DARWICH
+(importance...)  
+
+TATREEZ
+(importance...) 
