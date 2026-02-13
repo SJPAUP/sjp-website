@@ -5,14 +5,14 @@ imageAlt: "The Dome of the Rock islamic shrine"
 important: true
 ---
 
-1948
+1948...
 
-some background
+some background...
 
-when it started
+when it started...
 
-how it started
+how it started...
 
-october 7
+october 7...
 
-"ceasfires"
+"ceasfires"...
