@@ -514,7 +514,6 @@ h1.logo > a {
   color: #2c3e4f;
 }
 
-/* Consistent image sections */
 .event-images, 
 .recipe-images {
   margin-top: 2.5rem;
@@ -522,13 +521,11 @@ h1.logo > a {
   border-top: 1px solid #eaeef2;
 }
 
-/* Remove any extra borders from headings inside image sections */
 .event-images h3::before,
 .recipe-images h3::before {
   background: var(--accent-blue);
 }
 
-/* Event Images - Clean */
 .event-image {
   margin-bottom: 2rem;
   text-align: center;
