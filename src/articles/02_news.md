@@ -4,7 +4,10 @@ image: "/assets/article/news.jpg"
 imageAlt: "A reporter"
 ---
 
-small updates
+reliable news sources
+
+
+short weekly updates / breaking news
 
 newsletter?
 

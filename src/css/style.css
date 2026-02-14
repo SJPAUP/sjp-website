@@ -108,7 +108,6 @@ h1.logo > a {
   text-align: center;
   color: black;
   background: transparent;
-  /* Position at 30% from top */
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
@@ -404,16 +403,15 @@ h1.logo > a {
     padding: 4vw 2vw 10vw;
   }
 }
+
+
 /* =========================
-  IMPROVED INFO BOX STYLES
-========================= */
-/* =========================
-  CLEAN & CONSISTENT INFO BOX STYLES
+  INFO BOX STYLES
 ========================= */
 .info-box {
   background: white;
   width: 100%;
-  max-width: min(52vw, 800px);
+  max-width: min(80vw, 800px);
   padding: clamp(1.5rem, 4vw, 4rem);
   border-radius: clamp(1rem, 2vw, 2rem);
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
@@ -544,17 +542,14 @@ h1.logo > a {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Consistent caption styling - NO dotted lines */
 .event-image figcaption,
 .recipe-images figcaption {
   margin-top: 0.75rem;
   font-size: clamp(0.85rem, 1vw, 0.95rem);
   color: #5c6b7e;
   font-style: italic;
-  /* Removed border-bottom and display:inline-block */
 }
 
-/* Recipe Images Grid - Consistent */
 .recipe-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -592,16 +587,13 @@ h1.logo > a {
   transform: scale(1.02);
 }
 
-/* NO underline effects on figcaption */
 .recipe-images figcaption {
   font-size: clamp(0.9rem, 1.1vw, 1rem);
   color: #2c3e4f;
   font-weight: 500;
   font-family: "Alexandria", sans-serif;
-  /* Removed all pseudo-elements and effects */
 }
 
-/* Pull quote - Clean */
 .info-box .highlight-quote {
   background: #f8fafc;
   padding: clamp(1.5rem, 2.5vw, 2.5rem);
@@ -789,4 +781,73 @@ h1.logo > a {
   .event-image img {
     border-radius: 8px;
   }
+}
+.boycott-apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: nowrap;
+}
+
+.boycott-apps img {
+  width: 110px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.boycott-apps img:hover {
+  transform: scale(1.05);
+}
+
+.boycott-apps figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2c3e4f;
+  text-align: center;
+}
+.culture-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.culture-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+  height: 450px;
+}
+
+.culture-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.culture-card img:hover {
+  transform: scale(1.05);
+}
+
+.culture-card figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #2c3e4f;
+
+  overflow: auto;
+  height: 35%;
+  padding: 0 0.5rem;
 }
