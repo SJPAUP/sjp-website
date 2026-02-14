@@ -5,7 +5,7 @@ imageAlt: "zeyne singing"
 ---
 
 We highly suggest using the following boycott friendly music streaming platforms:   
-MUSI, AUDIOMACK, ANGHAMI
+AUDIOMACK, ANGHAMI, QOBUZ, MUSI
 
 
 <div class="playlist-container">
