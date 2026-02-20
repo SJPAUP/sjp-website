@@ -7,6 +7,17 @@ imageAlt: "bakesale"
 
 
 <div class="event-images">
+
+  <figure class="event-image">
+      <img src="/assets/article/5broken.png" alt="5 BROKEN CAMERAS SCREENING">
+          <figcaption>MOVIE SCREENING</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/art26.png" alt="ART BUILD SPRING 2026">
+          <figcaption>ART BUILD SPRING 2026</figcaption>
+  </figure>
+
   <figure class="event-image">
     <img src="/assets/article/vwf25.png" alt="VISIBILITY WEEK FALL 2025">
     <figcaption>VISIBILITY WEEK FALL 2025</figcaption>

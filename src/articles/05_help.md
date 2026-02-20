@@ -72,6 +72,16 @@ Where money goes matters.
 
   <figure>
     <img src="/assets/article/disoccupied.jpg" alt="Disoccupied app screenshot">
-    <figcaption>DISOCCUPIED</figcaption>
-  </figure>
-</div>
+    <figcaption>DISOCCUPIED</figcaption>  
+  </figure>   
+</div>      
+      
+---   
+   
+### Bonus:   
+  <a href="https://watch.watermelonpictures.com/browse " target="_blank">
+  <fig class="boycott-apps">
+    <img src="/assets/article/watermelon_pictures.jpg" alt="Watermelon Pictures logo">
+      <figcaption>A great alternative for Netflix. A streaming platform to watch award-winning films and documentaries on Palestine, supporting filmmakers and amplifying Palestinian voices.</figcaption>
+    </figure>
+  </a>

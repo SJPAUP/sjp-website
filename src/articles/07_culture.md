@@ -39,7 +39,8 @@ Palestinian culture is rich, resilient, and deeply tied to history, land, and id
   <figcaption>Mahmoud Darwich (1941–2008) is one of Palestine’s most celebrated poets. His poetry captures exile, loss, love of homeland, and national identity.</figcaption>
 </figure>
 
-<figure class="culture-card">
+  <a href="https://palestineinadish.com/recipes/desserts/muhallebi-recipe-mahalabia/" target="_blank">
+  <figure class="culture-card">
   <img src="/assets/article/tatreez.jpg" alt="Tatreez embroidery">
   <figcaption>Tatreez is traditional Palestinian embroidery. Patterns vary regionally, telling a story of family, village, and heritage. Symbolizes female creativity, cultural memory, and identity preservation.</figcaption>
 </figure>
