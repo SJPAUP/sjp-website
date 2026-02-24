@@ -4,6 +4,8 @@ image: "/assets/article/future.jpg"
 imageAlt: "question mark"
 ---
 
+RSVP to our future events [HERE](https://aup.campuslabs.com/engage/organization/sjp/events)   
+
 <figure class="event-image">
     <img src="/assets/article/bakesale_s26.png" alt="BAKE SALE SPRING 2026">
 </figure>

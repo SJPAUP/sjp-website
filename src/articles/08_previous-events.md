@@ -24,8 +24,13 @@ imageAlt: "bakesale"
   </figure>
 
   <figure class="event-image">
+      <img src="/assets/article/poetry_f25.jpg" alt="POETRY READING 2025">
+          <figcaption>POETRY READING FALL 2025</figcaption>
+  </figure>
+
+  <figure class="event-image">
     <img src="/assets/article/vwf25.png" alt="VISIBILITY WEEK FALL 2025">
-    <figcaption>VISIBILITY WEEK FALL 2025</figcaption>
+      <figcaption>VISIBILITY WEEK FALL 2025</figcaption>
   </figure>
 
   <figure class="event-image">
