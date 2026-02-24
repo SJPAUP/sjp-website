@@ -2,9 +2,11 @@
 title: "Want to Help?"
 image: "/assets/article/help.jpg"
 imageAlt: "A reporter"
----
+---   
 
-Feeling overwhelmed is normal. Watching what is happening and not knowing what to do can feel heavy. But there are ways to show up. Change starts small and grows through community.
+
+**Feeling overwhelmed is normal. Watching what is happening and not knowing what to do can feel heavy. But there are ways to show up. Change starts small and grows through community.**  
+
 
 
 ---
@@ -12,10 +14,10 @@ Feeling overwhelmed is normal. Watching what is happening and not knowing what t
 ### Educate Yourself & Others  
 Real solidarity begins with learning.
 
-• Read books and articles by Palestinian scholars, journalists, and historians  
-• Attend SJP talks, teach-ins, and discussions  
-• Share accurate, verified information  
-• Gently but firmly challenge misinformation  
+- Read books and articles by Palestinian scholars, journalists, and historians
+- Attend SJP talks, teach-ins, and discussions
+- Share accurate, verified information  
+- Gently but firmly challenge misinformation
 
 Learning is not passive, it is preparation for action.
 
@@ -25,10 +27,10 @@ Learning is not passive, it is preparation for action.
 
 Community turns awareness into impact.
 
-• Stay updated on our events and attend SJP meetings  
-• Show up to protests and on-campus actions  
-• Volunteer at tabling events and bakesales  
-• Help us collaborate with other student organizations  
+- Stay updated on our events and attend SJP meetings
+- Show up to protests and on-campus actions
+- Volunteer at tabling events and bakesales 
+- Help us collaborate with other student organizations
 
 Your presence matters. Your voice matters.   
    
@@ -40,10 +42,10 @@ Your presence matters. Your voice matters.
 
 Humanitarian aid does not replace justice, but it saves lives. Even small contributions make a difference.
 
-• Donate to reputable medical and relief organizations  
-• Fundraise with us on campus  
-• Share verified mutual aid campaigns  
-• Visit our Donations page for a list of trusted organizations  
+- Donate to reputable medical and relief organizations
+- Fundraise with us on campus  
+- Share verified mutual aid campaigns  
+- Visit our Donations page for a list of trusted organizations  
 
 Solidarity can be practical as well as political.  
 
@@ -53,12 +55,12 @@ Solidarity can be practical as well as political.
 
 Where money goes matters.
 
-• Learn about boycott and divestment campaigns   
-• Make informed consumer choices   
-• Focus on [priority boycott targets](https://bdsmovement.net/Guide-to-BDS-Boycott)  
-• Advocate for institutional divestment at our AUP   
-• Download boycott awareness apps   
-• Here are a few you can explore:   
+- Learn about boycott and divestment campaigns
+- Make informed consumer choices 
+- Focus on [priority boycott targets](https://bdsmovement.net/Guide-to-BDS-Boycott)
+- Advocate for institutional divestment at our AUP   
+- Download boycott awareness apps   
+Here are a few you can explore:  
 <div class="boycott-apps">
   <figure>
     <img src="/assets/article/boycat.jpg" alt="Boycat app screenshot">

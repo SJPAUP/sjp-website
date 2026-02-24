@@ -9,6 +9,11 @@ imageAlt: "bakesale"
 <div class="event-images">
 
   <figure class="event-image">
+      <img src="/assets/article/film_screening_feb1926.jpg" alt="5 BROKEN CAMERAS SCREENING">
+          <figcaption>MOVIE SCREENING</figcaption>
+  </figure>
+
+  <figure class="event-image">
       <img src="/assets/article/5broken.png" alt="5 BROKEN CAMERAS SCREENING">
           <figcaption>MOVIE SCREENING</figcaption>
   </figure>
