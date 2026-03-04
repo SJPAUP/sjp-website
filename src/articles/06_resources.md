@@ -20,7 +20,7 @@ important: true
   <figure class="recipe-images">
     <img src="/assets/article/bakesale_forP.jpg" alt="Bake Sale for Palestine Paris">
     <figcaption>
-      Bake Sale for Palestine Paris — Community-led weekly bake sales supporting Palestinian initiatives.
+      Bake Sale for Palestine Paris — Weekly bake sales supporting Palestinian initiatives.
     </figcaption>
   </figure>
 </a>
@@ -29,7 +29,7 @@ important: true
   <figure class="recipe-images">
     <img src="/assets/article/snooze.jpg" alt="Snooze Palestinian brunch Paris">
     <figcaption>
-      Snooze — Palestinian-inspired brunch café in Bastille blending tradition with modern flavors.
+      Snooze — Palestinian-inspired brunch café.
     </figcaption>
   </figure>
 </a>
@@ -38,7 +38,7 @@ important: true
   <figure class="recipe-images">
     <img src="/assets/article/le_soleil.jpg" alt="Le Soleil Palestinian restaurant Paris">
     <figcaption>
-      Le Soleil — Palestinian restaurant in Paris offering traditional dishes rooted in heritage.
+      Le Soleil — Palestinian restaurant in offering traditional dishes.
     </figcaption>
   </figure>
 </a>
@@ -47,7 +47,7 @@ important: true
   <figure class="recipe-images">
     <img src="/assets/article/monde_arabe.jpg" alt="Institut du Monde Arabe building">
     <figcaption>
-      Institut du Monde Arabe — Cultural institution hosting exhibitions and events highlighting Arab and Palestinian art and history.
+      Institut du Monde Arabe — Cultural institution hosting exhibitions and events highlighting Arab and Palestinian art & history.
     </figcaption>
   </figure>
 </a>

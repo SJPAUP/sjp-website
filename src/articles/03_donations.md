@@ -44,4 +44,12 @@ important: true
     </figure>
   </a>
 
+  <a href="https://humanappeal.fr/appels-aux-dons/urgence-gaza" target="_blank">
+    <figure class="recipe-images">
+      <img src="/assets/article/appeal.jpg" alt="HUMAN APPEAL">
+      <figcaption>HUMAN APPEAL</figcaption>
+    </figure>
+  </a>
+
+
   </a>

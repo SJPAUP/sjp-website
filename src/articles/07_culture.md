@@ -6,7 +6,7 @@ imageAlt: ""
 
 Palestinian culture is rich, resilient, and deeply tied to history, land, and identity. Many symbols, traditions, and artistic expressions carry profound meaning for Palestinians worldwide. Understanding them helps foster solidarity and appreciation for the community and its heritage.
 
----
+
 <div class="culture-grid">
 
 <figure class="culture-card">
