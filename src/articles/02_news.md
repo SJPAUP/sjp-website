@@ -22,7 +22,8 @@ imageAlt: "A reporter"
     <blockquote
      class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/p/DUqj5cijeuR/"
-     data-instgrm-version="14">
+     data-instgrm-version="14"
+     style="margin:0; width:100%;">
     </blockquote>
   </div>
 
@@ -30,15 +31,17 @@ imageAlt: "A reporter"
     <blockquote
       class="instagram-media"
      data-instgrm-permalink="https://www.instagram.com/reel/DUixFcigvlP/"
-     data-instgrm-version="14">
+     data-instgrm-version="14"
+     style="margin:0; width:100%;">
     </blockquote>
   </div>
 
   <div style="max-width:540px; width:100%;">
     <blockquote
      class="instagram-media"
-     data-instgrm-permalink="https://www.instagram.com/p/DUwLU1BDk4J/"
-      data-instgrm-version="14">
+     data-instgrm-permalink="https://www.instagram.com/reel/DUixFcigvlP/"
+      data-instgrm-version="14"
+      style="margin:0; width:100%;">
     </blockquote>
   </div>
 
@@ -46,7 +49,8 @@ imageAlt: "A reporter"
     <blockquote
       class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/p/DUhBZWACX2v/"
-     data-instgrm-version="14">
+      data-instgrm-version="14"
+      style="margin:0; width:100%;">
     </blockquote>
   </div>
 
