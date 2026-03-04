@@ -20,14 +20,6 @@ imageAlt: "A reporter"
 
   <div style="max-width:380px; width:100%; overflow:hidden;">
     <blockquote
-      class="instagram-media"
-      data-instgrm-permalink="https://www.instagram.com/p/DUwLU1BDk4J/"
-      data-instgrm-version="14">
-    </blockquote>
-  </div>
-
-  <div style="max-width:380px; width:100%; overflow:hidden;">
-    <blockquote
      class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/p/DUqj5cijeuR/"
      data-instgrm-version="14"
