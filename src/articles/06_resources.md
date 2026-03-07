@@ -7,11 +7,30 @@ important: true
 
 <div class="recipe-images">
 
-<a href="https://www.urgence-palestine.com" target="_blank">
+
+<a href="https://snoozerestaurant.fr" target="_blank">
   <figure class="recipe-images">
-    <img src="/assets/article/urgence_palestine.jpg" alt="Urgence Palestine protest in Paris">
+    <img src="/assets/article/snooze.jpg" alt="Snooze Palestinian brunch Paris">
     <figcaption>
-      Urgence Palestine — Collective organizing protests and solidarity actions across Paris.
+      Snooze — Palestinian-inspired brunch café.
+    </figcaption>
+  </figure>
+</a>
+
+<a href="https://www.dirtylemonbar.com" target="_blank">
+  <figure class="recipe-images">
+    <img src="/assets/article/dlb.jpg" alt="Dirty Lemon Bar">
+    <figcaption>
+      Dirty Lemon Bar — Palestinian brunch bar owned by Top Chef Winner.
+    </figcaption>
+  </figure>
+</a>
+
+<a href="https://share.google/I15EvZWGYCjcP5It7" target="_blank">
+  <figure class="recipe-images">
+    <img src="/assets/article/le_soleil.jpg" alt="Le Soleil Palestinian restaurant Paris">
+    <figcaption>
+      Le Soleil — Restaurant offering traditional Palestinian dishes.
     </figcaption>
   </figure>
 </a>
@@ -25,20 +44,38 @@ important: true
   </figure>
 </a>
 
-<a href="https://snoozerestaurant.fr" target="_blank">
+<a href="https://www.urgence-palestine.com" target="_blank">
   <figure class="recipe-images">
-    <img src="/assets/article/snooze.jpg" alt="Snooze Palestinian brunch Paris">
+    <img src="/assets/article/urgence_palestine.jpg" alt="Urgence Palestine protest in Paris">
     <figcaption>
-      Snooze — Palestinian-inspired brunch café.
+      Urgence Palestine — Collective organizing protests and solidarity actions across Paris.
     </figcaption>
   </figure>
 </a>
 
-<a href="https://share.google/I15EvZWGYCjcP5It7" target="_blank">
+<a href="https://www.instagram.com/lapalestinenousrassemble/?hl=en" target="_blank">
   <figure class="recipe-images">
-    <img src="/assets/article/le_soleil.jpg" alt="Le Soleil Palestinian restaurant Paris">
+    <img src="/assets/article/lpnr.jpg" alt="La Palestine Nous Rassemble">
     <figcaption>
-      Le Soleil — Palestinian restaurant in offering traditional dishes.
+      La Palestine Nous Rassemble — Organization for Palestinian events and resources.
+    </figcaption>
+  </figure>
+</a>
+
+<a href="https://www.france-palestine.org/?page=agenda_dep&depart=75" target="_blank">
+  <figure class="recipe-images">
+    <img src="/assets/article/AFPS.jpg" alt="France Palestine solidarity protest">
+    <figcaption>
+      France Palestine Solidarité — Local agenda of solidarity actions and public mobilizations.
+    </figcaption>
+  </figure>
+</a>
+
+<a href="https://www.instagram.com/taamal.event/?hl=en" target="_blank">
+  <figure class="recipe-images">
+    <img src="/assets/article/taamal.jpg" alt="Ta'amal Palestinian events">
+    <figcaption>
+      Ta'amal — Instagram account sharing Palestinian culture & food, and planning events in Paris.
     </figcaption>
   </figure>
 </a>
@@ -47,7 +84,7 @@ important: true
   <figure class="recipe-images">
     <img src="/assets/article/monde_arabe.jpg" alt="Institut du Monde Arabe building">
     <figcaption>
-      Institut du Monde Arabe — Cultural institution hosting exhibitions and events highlighting Arab and Palestinian art & history.
+      Institut du Monde Arabe — Cultural institution hosting exhibitions and events for Palestinian art & history.
     </figcaption>
   </figure>
 </a>
@@ -61,13 +98,5 @@ important: true
   </figure>
 </a>
 
-<a href="https://www.france-palestine.org/?page=agenda_dep&depart=75" target="_blank">
-  <figure class="recipe-images">
-    <img src="/assets/article/AFPS.jpg" alt="France Palestine solidarity protest">
-    <figcaption>
-      France Palestine Solidarité (Paris) — Local agenda of solidarity actions and public mobilizations.
-    </figcaption>
-  </figure>
-</a>
 
 </div>
