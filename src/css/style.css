@@ -720,6 +720,16 @@ h1.logo > a {
 }
 
 @media (max-width: 768px) {
+  .article-grid {
+    grid-template-columns: 1fr;
+    padding: 1.2rem;
+    gap: 0.85rem;
+  }
+
+  .article-card {
+    aspect-ratio: 5 / 2;
+  }
+
   .info-box {
     padding: 1.5rem;
   }

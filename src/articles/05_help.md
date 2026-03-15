@@ -15,7 +15,7 @@ imageAlt: "A reporter"
 Real solidarity begins with learning.
 
 - Read books and articles by Palestinian scholars, journalists, and historians
-- Attend SJP talks, teach-ins, and discussions
+- Attend SJP talks, events, and discussions
 - Share accurate, verified information  
 - Gently but firmly challenge misinformation
 
@@ -78,12 +78,36 @@ Here are a few you can explore:
   </figure>   
 </div>      
       
+<br>
+
 ---   
    
 ### Bonus:   
+ A great alternative for Netflix. A streaming platform to watch award-winning films and documentaries on Palestine, supporting filmmakers and amplifying Palestinian voices:
   <a href="https://watch.watermelonpictures.com/browse " target="_blank">
   <fig class="boycott-apps">
     <img src="/assets/article/watermelon_pictures.jpg" alt="Watermelon Pictures logo">
-      <figcaption>A great alternative for Netflix. A streaming platform to watch award-winning films and documentaries on Palestine, supporting filmmakers and amplifying Palestinian voices.</figcaption>
     </figure>
   </a>
+
+<!--
+<br>
+ Three alternatives to ChatGPT:
+<div class="boycott-apps">
+  <figure>
+    <a href="https://claude.ai" target="_blank">
+      <img src="/assets/article/claude.jpg" alt="Claude logo">
+    </a>
+  </figure>
+  <figure>
+    <a href="https://deepseek.com" target="_blank">
+      <img src="/assets/article/deepseek.jpg" alt="DeepSeek logo">
+    </a>
+  </figure>
+  <figure>
+    <a href="https://thaura.ai" target="_blank">
+      <img src="/assets/article/thaura.jpg" alt="Thaura logo">
+    </a>
+  </figure>
+</div> 
+-->
