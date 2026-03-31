@@ -9,6 +9,31 @@ imageAlt: "bakesale"
 <div class="event-images">
 
   <figure class="event-image">
+      <img src="/assets/article/vws_2_26.jpg" alt="VISIBILITY WEEK">
+          <figcaption>VISIBILITY WEEK</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/vws_4_26.jpg" alt="VISIBILITY WEEK">
+          <figcaption>VISIBILITY WEEK</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/vws_5_26.jpg" alt="VISIBILITY WEEK">
+          <figcaption>VISIBILITY WEEK</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/vws_6_26.jpg" alt="VISIBILITY WEEK">
+          <figcaption>VISIBILITY WEEK</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/vws_7_26.jpg" alt="VISIBILITY WEEK">
+          <figcaption>VISIBILITY WEEK</figcaption>
+  </figure>
+
+  <figure class="event-image">
       <img src="/assets/article/film_screening_feb1926.jpg" alt="5 BROKEN CAMERAS SCREENING">
           <figcaption>MOVIE SCREENING</figcaption>
   </figure>

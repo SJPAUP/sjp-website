@@ -21,6 +21,23 @@ imageAlt: "A reporter"
 <script async src="https://www.instagram.com/embed.js"></script>
 
 
+  <div style="max-width:380px; width:100%; overflow:hidden;">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/DWhW5KUFGiI/"
+      data-instgrm-version="14"
+     style="margin:0; width:100%;">
+    </blockquote>
+  </div>
+
+  <div style="max-width:380px; width:100%; overflow:hidden;">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/DWWlbnJjBed/"
+      data-instgrm-version="14"
+     style="margin:0; width:100%;">
+    </blockquote>
+  </div>
 
   <div style="max-width:380px; width:100%; overflow:hidden;">
     <blockquote
