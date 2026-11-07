@@ -24,6 +24,33 @@ imageAlt: "A reporter"
   <div style="max-width:380px; width:100%; overflow:hidden;">
     <blockquote
       class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/DfNM6nxMKMd/"
+      data-instgrm-version="14"
+     style="margin:0; width:100%;">
+    </blockquote>
+  </div>
+
+  <div style="max-width:380px; width:100%; overflow:hidden;">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/De7bHrQGa8W/"
+      data-instgrm-version="14"
+     style="margin:0; width:100%;">
+    </blockquote>
+  </div>
+
+  <div style="max-width:380px; width:100%; overflow:hidden;">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/reel/De1kAmOsCuv/"
+      data-instgrm-version="14"
+     style="margin:0; width:100%;">
+    </blockquote>
+  </div>
+
+  <div style="max-width:380px; width:100%; overflow:hidden;">
+    <blockquote
+      class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/p/DWhW5KUFGiI/"
       data-instgrm-version="14"
      style="margin:0; width:100%;">

@@ -8,39 +8,67 @@ imageAlt: "bakesale"
 
 <div class="event-images">
 
+
+  <figure class="event-image">
+      <img src="/assets/article/bakesale_s26.png" alt="BAKE SALE SPRING 2026">
+          <figcaption>BAKE SALE SPRING 2026</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/vwflyer_s26.png" alt="VISIBILITY WEEK FLYER SPRING 2026">
+          <figcaption>VISIBILITY WEEK FLYER SPRING 2026</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/mets_s26.png" alt="MIDDLE EAST TALK SPRING 2026">
+          <figcaption>MIDDLE EAST TALK SERIES SPRING 2026</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/casita_sjp.png" alt="CULTURE NIGHT">
+          <figcaption>CASITA & SJP CULTURAL NIGHT SPRING 2026</figcaption>
+  </figure>
+
+  <figure class="event-image">
+      <img src="/assets/article/hindR.png" alt="MOVIE SCREENING">
+      <figcaption>MOVIE SCREENING SPRING 2026</figcaption>
+  </figure>
+
+
+
   <figure class="event-image">
       <img src="/assets/article/vws_2_26.jpg" alt="VISIBILITY WEEK">
-          <figcaption>VISIBILITY WEEK</figcaption>
+          <figcaption>VISIBILITY WEEK SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/vws_4_26.jpg" alt="VISIBILITY WEEK">
-          <figcaption>VISIBILITY WEEK</figcaption>
+          <figcaption>VISIBILITY WEEK SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/vws_5_26.jpg" alt="VISIBILITY WEEK">
-          <figcaption>VISIBILITY WEEK</figcaption>
+          <figcaption>VISIBILITY WEEK SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/vws_6_26.jpg" alt="VISIBILITY WEEK">
-          <figcaption>VISIBILITY WEEK</figcaption>
+          <figcaption>VISIBILITY WEEK SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/vws_7_26.jpg" alt="VISIBILITY WEEK">
-          <figcaption>VISIBILITY WEEK</figcaption>
+          <figcaption>VISIBILITY WEEK SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/film_screening_feb1926.jpg" alt="5 BROKEN CAMERAS SCREENING">
-          <figcaption>MOVIE SCREENING</figcaption>
+          <figcaption>MOVIE SCREENING SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
       <img src="/assets/article/5broken.png" alt="5 BROKEN CAMERAS SCREENING">
-          <figcaption>MOVIE SCREENING</figcaption>
+          <figcaption>MOVIE SCREENING SPRING 2026</figcaption>
   </figure>
 
   <figure class="event-image">
